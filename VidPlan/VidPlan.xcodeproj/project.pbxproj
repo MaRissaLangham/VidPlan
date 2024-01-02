@@ -13,6 +13,7 @@
 		496F87F52B293A5A00443BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496F87F32B293A5A00443BD9 /* Main.storyboard */; };
 		496F87F72B293A5C00443BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496F87F62B293A5C00443BD9 /* Assets.xcassets */; };
 		496F87FA2B293A5C00443BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496F87F82B293A5C00443BD9 /* LaunchScreen.storyboard */; };
+		4992B9022B43224B0065B657 /* CameraRollVideoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992B9012B43224B0065B657 /* CameraRollVideoService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		496F87F62B293A5C00443BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		496F87F92B293A5C00443BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		496F87FB2B293A5C00443BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4992B9012B43224B0065B657 /* CameraRollVideoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRollVideoService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		496F87EC2B293A5A00443BD9 /* VidPlan */ = {
 			isa = PBXGroup;
 			children = (
+				4992B9002B4321AD0065B657 /* Services */,
 				496F87ED2B293A5A00443BD9 /* AppDelegate.swift */,
 				496F87EF2B293A5A00443BD9 /* SceneDelegate.swift */,
 				496F87F12B293A5A00443BD9 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				496F87FB2B293A5C00443BD9 /* Info.plist */,
 			);
 			path = VidPlan;
+			sourceTree = "<group>";
+		};
+		4992B9002B4321AD0065B657 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4992B9012B43224B0065B657 /* CameraRollVideoService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				496F87F22B293A5A00443BD9 /* ViewController.swift in Sources */,
+				4992B9022B43224B0065B657 /* CameraRollVideoService.swift in Sources */,
 				496F87EE2B293A5A00443BD9 /* AppDelegate.swift in Sources */,
 				496F87F02B293A5A00443BD9 /* SceneDelegate.swift in Sources */,
 			);
