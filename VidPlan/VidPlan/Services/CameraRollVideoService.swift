@@ -11,12 +11,12 @@ import Photos
 func PhotoLibraryAuthorization() 
 { PHPhotoLibrary.requestAuthorization
     { status in
-        if status == .authorized{fetchVideos()}
+        if status == .authorized{fetchVideosAndSet()}
         else {print("Access to photo library denied")}
     }
 }
 
-func fetchVideos() 
+func fetchVideosAndSet()
 {
     // Fetch all videos sorted by creation date
    let options = PHFetchOptions()
